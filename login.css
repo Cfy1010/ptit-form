@@ -1,0 +1,68 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url('./img/bg-img.jpg');
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* text-align: center; */
+  
+}
+
+.center-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  width: 325px;
+  background: #FFF;
+  text-align: center;
+  padding: 30px;
+  border: 2px solid rgba(0,0,0, 0.65);
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0,0,0, 0.5);
+  /* display: inline-block; */
+  /* margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translatey(-50%); */
+}
+
+.login h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.login h4 {
+  background: rgb(230, 219, 171);
+  color: rgb(160, 126, 126);
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: normal;
+  box-shadow: 0 0 20px rgba(0,0,0, 0.1) inset;
+}
+
+.login input {
+  font-family: inherit;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid rgba(0,0,0, 0.2);
+  border-radius: 2px;
+  font-size: 0.85em;
+}
+
+.login input[type="password"] {
+  margin-top: 5px;
+}
+.login input[type="submit"] {
+  width: 50%;
+  background: #17a2b8;
+  color: #fff;
+  font-size: 1em;
+  margin: 20px 0 5px 0 ;
+  box-shadow: 0 2px 0 rgb(0,55,135);
+}
